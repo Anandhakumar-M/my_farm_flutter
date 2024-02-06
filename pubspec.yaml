@@ -1,0 +1,41 @@
+name: my_dairy_farm_frontend
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.2.2
+  flutter_native_splash: ^2.3.9
+  flutter_screenutil: ^5.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+   - assets\images\logo.jpg
+   - assets\images\logo.png
+   - assets\images\cow.png
+   - assets\images\signup.png
+
+
+  fonts:
+    - family: OpenSans
+      fonts:
+      - asset: assets\fonts\OpenSans\OpenSans.ttf
+      - asset: assets\fonts\OpenSans\OpenSans-Italic.ttf
